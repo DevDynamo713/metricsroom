@@ -1,0 +1,28 @@
+﻿{
+    "version":  "0.1.0",
+    "name":  "metricsroom",
+    "scripts":  {
+                    "build":  "next build",
+                    "lint":  "next lint",
+                    "deploy":  "wrangler deploy",
+                    "start":  "next start",
+                    "dev":  "next dev",
+                    "test":  "vitest run",
+                    "e2e":  "playwright test"
+                },
+    "devDependencies":  {
+                            "vitest":  "^2.0.0",
+                            "typescript":  "^5",
+                            "@playwright/test":  "^1.45.0",
+                            "@types/react":  "^18",
+                            "@types/node":  "^20",
+                            "@types/react-dom":  "^18",
+                            "wrangler":  "^3.60.0"
+                        },
+    "dependencies":  {
+                         "react":  "^18",
+                         "react-dom":  "^18",
+                         "next":  "14.2.5"
+                     },
+    "private":  true
+}
